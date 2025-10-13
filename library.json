@@ -1,0 +1,45 @@
+{
+  "name": "NeoRing",
+  "version": "1.0.0",
+  "description": "A unified LED animation library for FastLED and Adafruit NeoPixel. Provides a flexible abstraction layer for controlling LED rings and strips with modular animations, blending, and driver independence.",
+  "keywords": [
+    "led",
+    "neopixel",
+    "fastled",
+    "animation",
+    "display",
+    "lights",
+    "rgb",
+    "ring"
+  ],
+  "authors": [
+    {
+      "name": "Madhukar Temba",
+      "email": "madhusmiles.madhukar@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/madhukartemba/NeoRing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madhukartemba/NeoRing.git"
+  },
+  "dependencies": [
+    {
+      "name": "FastLED",
+      "platforms": ["*"]
+    },
+    {
+      "name": "Adafruit NeoPixel",
+      "platforms": ["*"]
+    }
+  ],
+  "frameworks": ["arduino"],
+  "platforms": ["*"],
+  "category": "Display",
+  "examples": [
+    "examples/*/*.ino",
+    "examples/*.ino"
+  ]
+}
