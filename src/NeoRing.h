@@ -69,6 +69,7 @@ class NeoRing {
             update();
             delay(1);
         }
+        lastUpdate = millis();
     }
 
     // ---------------- User-friendly methods ----------------
