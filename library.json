@@ -1,6 +1,6 @@
 {
   "name": "NeoRing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A unified LED animation library for FastLED and Adafruit NeoPixel. Provides a flexible abstraction layer for controlling LED rings and strips with modular animations, blending, and driver independence.",
   "keywords": [
     "led",
